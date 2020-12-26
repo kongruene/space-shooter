@@ -12,7 +12,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 600)
+  createCanvas(document.body.clientWidth, 600)
   SS = createSprite(100, 300, 0, 0);
   SS.addImage(SSimg);
   SS.scale = 0.125;
